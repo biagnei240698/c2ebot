@@ -13,5 +13,8 @@
                 <output value="Nice to meet you, $UserName!"/> <!-- Using the placeholder in output -->
             </input>
         </context>
+        <input pattern="(price|prices) *">
+        <!-- Greet the user if we know his/her name -->
+         <output value="$50 per unit"/>
     </input>
 </context>
