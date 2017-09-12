@@ -1,5 +1,4 @@
- <context>
-<input pattern="(hi|hello) *">
+<input pattern="(hola) *">
   <output value="Hi! What is your favorite color?"/>
 
   <context>
@@ -13,4 +12,11 @@
     </input>
   </context>
 </input>
-    </context>
+
+<input pattern="(hi|hello) *">
+  <output>
+    <item>Hi!</item>
+    <item>Hello!</item>
+    <item>Good morning $UserName!</item>
+  </output>
+</input>
